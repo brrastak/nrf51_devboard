@@ -1,0 +1,395 @@
+(footprint "WT51822-S4AT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WT51822-S4AT is a high performance ,low power radio transmit and receive system module use Nordic BLE 4.1 nRF51822 as the controller chips.")
+	(property "Reference" "REF**"
+		(at 6.175 -10.635 0)
+		(layer "F.SilkS")
+		(uuid "b4f88629-fda3-42dd-9a55-bb1fbc2e60cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WT51822-S4AT"
+		(at 7.62 -4.953 0)
+		(layer "F.Fab")
+		(uuid "73f6ee24-0129-4ef2-a1de-d423251b6cde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "WT51822-S4AT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "019df671-796f-48c4-a7ef-28df2a92891a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcbb35be-69ef-4c5e-91d4-66670f4d395e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c19ffe6-0adf-456a-8de2-a145e55cc08d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.127 -8.509)
+		(end -0.127 -9.271)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71981e6d-bfb6-44b7-8052-ca8347efb4de")
+	)
+	(fp_line
+		(start -0.127 0.127)
+		(end -0.127 -2.667)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7df4fcd1-31af-45fa-91f7-472d3852c18c")
+	)
+	(fp_line
+		(start -0.127 0.127)
+		(end 2.54 0.127)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b75d1231-fb2e-4451-9252-391f8761f48b")
+	)
+	(fp_line
+		(start 7.493 0.127)
+		(end 12.446 0.127)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a397177c-9edd-40c5-b889-e57d8b824281")
+	)
+	(fp_line
+		(start 14.478 0.127)
+		(end 14.478 -9.271)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4b43d70-7016-4ce9-a697-ce0e36ddb6ab")
+	)
+	(fp_line
+		(start 14.478 0.127)
+		(end 18.669 0.127)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f3204db-27cd-4299-b34b-b446f913725c")
+	)
+	(fp_line
+		(start 18.669 -9.271)
+		(end -0.127 -9.271)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e396c00-dbe6-4a4c-80df-e0cdc3248c9c")
+	)
+	(fp_line
+		(start 18.669 0.127)
+		(end 18.669 -9.271)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e5bc420-f9c7-4f44-b200-c02ef2024a9b")
+	)
+	(fp_line
+		(start -1.016 0.889)
+		(end -1.016 -9.398)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "96284796-cd01-4cec-89a7-5e84f19fd2a6")
+	)
+	(fp_line
+		(start 18.796 -9.398)
+		(end -1.016 -9.398)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd1d0549-128b-4850-9c40-c7b7e0b09f2b")
+	)
+	(fp_line
+		(start 18.796 0.889)
+		(end -1.016 0.889)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "187a9516-9f06-4a02-b0d2-4ad9e63636e3")
+	)
+	(fp_line
+		(start 18.796 0.889)
+		(end 18.796 -9.398)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "819c3a2d-0fcf-4b54-a6d1-5bf1c3973414")
+	)
+	(fp_line
+		(start 0 -9.144)
+		(end 0 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b646224-f92c-4389-888e-3fda08343b69")
+	)
+	(fp_line
+		(start 0 0)
+		(end 18.542 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f55288a-cc9d-4627-b2d8-d33344606f4e")
+	)
+	(fp_line
+		(start 18.542 -9.144)
+		(end 0 -9.144)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57f86865-b8e3-4156-8fff-0f641d007f2c")
+	)
+	(fp_line
+		(start 18.542 0)
+		(end 18.542 -9.144)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f42660e4-23cd-494d-af87-d7c54fb4ea31")
+	)
+	(fp_text user "KEEP-OUT"
+		(at 17.399 -4.572 90)
+		(layer "Cmts.User")
+		(uuid "cd6c420d-9135-4a83-a187-46508133cec3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "COPPER"
+		(at 15.699 -4.572 90)
+		(layer "Cmts.User")
+		(uuid "e9ef651b-455e-4201-9cce-e5e5ecd59918")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -8.1)
+		(size 1.27 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "ee9c68c6-936a-4821-b1ce-c92d7e0c892e")
+	)
+	(pad "2" smd rect
+		(at 0 -7.1)
+		(size 1.27 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "58c3b9e6-73cb-4902-9645-0d9ff37bcba0")
+	)
+	(pad "3" smd rect
+		(at 0 -6.1)
+		(size 1.27 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "1d2f3a64-9342-4304-9893-373e38274bef")
+	)
+	(pad "4" smd rect
+		(at 0 -5.1)
+		(size 1.27 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "6802e457-a78c-4c9c-92d6-cc2f28288f7f")
+	)
+	(pad "5" smd rect
+		(at 0 -4.1)
+		(size 1.27 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "69c8c6e1-8e88-4ed6-a1bb-38eb3a29df5d")
+	)
+	(pad "6" smd rect
+		(at 0 -3.1)
+		(size 1.27 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "1eb57607-8771-434f-8f4a-a702d9a77d5e")
+	)
+	(pad "7" smd rect
+		(at 3 0 270)
+		(size 1.27 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "ad83bfab-9620-4719-973e-1757c52456f9")
+	)
+	(pad "8" smd rect
+		(at 4 0 270)
+		(size 1.27 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "280e3fb2-cc51-4f59-9385-cfa37b022c4b")
+	)
+	(pad "9" smd rect
+		(at 5 0 270)
+		(size 1.27 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "ded6c7aa-d740-4409-9077-499f9d258ddd")
+	)
+	(pad "10" smd rect
+		(at 6 0 270)
+		(size 1.27 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d556cbb0-f8f5-4c0f-ae37-e114274b63bd")
+	)
+	(pad "11" smd rect
+		(at 7 0 270)
+		(size 1.27 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "66ea548b-9d3b-42be-a7b2-a86b8560e41a")
+	)
+	(pad "12" smd rect
+		(at 12.9 0 270)
+		(size 1.27 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "278eefc6-1d91-49e9-b161-6690fb014dad")
+	)
+	(pad "13" smd rect
+		(at 14.05 0 270)
+		(size 1.27 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d099a4d4-07a2-40b4-9a8c-58a5c0121aab")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "70e7bca0-c864-4d1a-8adb-75e90f69ceba")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 11.5 -8) (xy 14.4 -8) (xy 14.4 -2) (xy 11.5 -2)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "bf3b8429-8dc5-46af-b8de-0e795f640988")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 14.4 -9.144) (xy 18.542 -9.144) (xy 18.542 0) (xy 14.4 0)
+			)
+		)
+	)
+)
